@@ -1,0 +1,48 @@
+.moviecard-head{
+    padding: 2rem;
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 30px;
+}
+
+.Cards{
+    width: 250px;
+    height: 260px;
+    border-radius: 5px;
+    border: 1px solid rgb(75 85 99/var(--tw-border-opacity));
+    padding: 10px;
+ transition: transform 0.3s ease-in-out;
+
+}
+.Cards img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.Cards:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.card-name{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:-40px;
+    height: 40px;
+    width: 100%;
+    background: linear-gradient(269.82deg, #07091c00 0.17%, #080a1ad6 99.87%); 
+}
+
+
+@media screen and (max-width: 768px) {
+  .moviecard-head {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

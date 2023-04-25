@@ -1,0 +1,77 @@
+.login-head{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.login-box{
+    width: 700px;
+    height: 590px;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    border: 1px solid rgb(75 85 99/var(--tw-border-opacity));
+}
+.login-box img{
+    width: 130px;
+    margin: 40px 0px;
+}
+
+.labelAndInputs{
+    display: flex;
+    flex-direction: column;
+    
+}
+.labelAndInputs label{
+   color: rgb(75 85 99/var(--tw-text-opacity));
+   margin: 10px 0px;
+   font-size: 1rem;
+   font-weight: 500;
+}
+          
+.labelAndInputs input{
+    width: 600px;
+    height: 50px;
+    background-color: var(--main-bg);
+    border-radius: 5px;
+  border: 1px solid rgb(75 85 99/var(--tw-border-opacity));
+  margin: 5px 0px;
+ color: white;
+ padding-left: 20px;
+}
+.labelAndInputs input::placeholder{
+    color:  rgb(75 85 99/var(--tw-text-opacity));
+    font-weight: 600;
+    padding-left: 20px;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+
+.signinBtnHead button{
+    width: 620px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 20px 0px;
+cursor: pointer;
+
+}
+
+.all-sign-in-input-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+
+.labelAndInputs small{
+    color: red;
+}

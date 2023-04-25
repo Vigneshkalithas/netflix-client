@@ -1,0 +1,112 @@
+
+.carousel .thumb{
+    display: none !important;
+}
+.carousel .control-dots{
+    display: none;
+}
+
+.carousel img{
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+    position: relative; 
+}
+
+.carousel.carousel-slider .control-arrow {
+    display: none;
+}
+
+.carousel .carousel-status {
+    display: none;
+}
+
+
+.images-headd-carousel{
+    position: relative;   
+}
+.linear-bg{
+    color: white;
+    position: absolute;
+    top: 0px;
+    background: linear-gradient(269.82deg, #07091c00 0.17%, #080a1ad6 99.87%); 
+    width: 100vw;
+    height: 500px;
+}
+.column {
+flex-direction: column;
+}
+.gap-5{
+    gap: 20px;
+}
+.linear-bg .headline{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
+    letter-spacing:5px;
+}
+.d-start{
+    display: flex;
+    justify-content: start;
+}
+.d-flex{
+    display: flex;
+}
+.jc-spaceBetween{
+    justify-content: space-between;
+}
+.gap-2{
+gap: 8px;
+}
+
+
+.jc-space-between{
+    justify-content: space-between;
+}
+.gap-10{
+    gap: 50px;
+}
+
+.watch-btn{
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.heart-icon{
+width: 35px;
+height: 35px;
+/* background-color: rgb(255 255 255/var(--tw-bg-opacity)); */
+background-color:black;
+border: 0.5px solid red;
+border-radius: 4px;
+ font-size: 1.2rem;
+ 
+ cursor: pointer;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.heart-icon:hover{
+ color: red;  
+ background-color: white;
+}
+
+.icon{
+    color: red;
+}
+
+
+.bg-pos{
+    position: absolute;
+    top: 275px;
+    left: 50px;
+}

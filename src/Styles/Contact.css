@@ -1,0 +1,53 @@
+/* contact cards  */
+
+.contact-card-head{
+    margin: 40px 0px;
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+}
+
+.contact-card{
+width: 400px;
+height: 250px;
+border: 1px solid rgb(75 85 99/var(--tw-border-opacity));
+/* padding: 10px; */
+background-color: var(--bg-color);
+  border-radius: 5px;
+transition: transform 0.3s ease-in-out;
+color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.svgHead{
+    width:75px;
+    height: 75px;
+    background-color: var(--main-bg);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 1.5rem;
+}
+
+   
+
+
+.text-head-contact p {
+    font-size: 1.25rem;
+    line-height: 2rem;
+     font-weight: 600;
+     margin: 10px 0px;
+     letter-spacing: 0.7px;
+     font-family:'popins', sans-serif ;
+}
+
+
+.foooter-contact {
+width: 300px;
+text-align: center;
+color: rgb(192 192 192/var(--tw-text-opacity));
+}

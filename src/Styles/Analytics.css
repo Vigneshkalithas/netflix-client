@@ -1,0 +1,19 @@
+.chartHead{
+width: 600px;
+height: 400px;
+border-radius: 10px;
+ border: 1px solid rgb(75 85 99/var(--tw-border-opacity));
+ display: flex;
+ gap: 20px;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+}
+
+.headTwoChart{
+    display: flex;
+    gap: 30px;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

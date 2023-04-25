@@ -1,0 +1,58 @@
+export const CarouselDatas = [
+  {
+    name: "Skyscraper",
+    genre: "Fantasy",
+    duration: "2",
+    year: "2010",
+    navigation: "",
+    cat: "Hollywood",
+    src: "https://netflixo.vercel.app/images/movies/2.jpeg",
+  },
+  {
+    name: "My Favorite Person",
+    genre: "Adventure",
+    duration: "11",
+    year: "2014",
+    navigation: "",
+    cat: "Malluwood",
+    src: "https://netflixo.vercel.app/images/movies/1.jpg",
+  },
+  {
+    name: "Army Of Dead",
+    genre: "Western",
+    duration: "3",
+    year: "2022",
+    navigation: "",
+    cat: "Sandalwood",
+    src: "https://netflixo.vercel.app/images/movies/3.jpg",
+  },
+  {
+    name: "The Conjuring",
+    genre: "Thriller",
+    duration: "2",
+    year: "2010",
+    navigation: "",
+    cat: "Bollywood",
+    src: "https://netflixo.vercel.app/images/movies/4.jpg",
+  },
+  {
+    name: "Lets Be A Crops",
+    genre: "Romantic",
+    duration: "4",
+    year: "2010",
+    navigation: "",
+    cat: "Kollywood",
+    src: "https://netflixo.vercel.app/images/movies/5.jpg",
+  },
+  {
+    name: "RRR",
+    genre: "Action",
+    duration: "2",
+    year: "2022",
+    navigation: "",
+    cat: "Tollywood",
+    src: "https://netflixo.vercel.app/images/movies/6.jpg",
+  },
+];
+
+// [Fantasy, Adventure, Western, Thriller, Romantic, Action];
